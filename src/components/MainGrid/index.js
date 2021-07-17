@@ -12,15 +12,17 @@ const MainGrid = styled.main`
     display: none;
     @media (min-width: 860px) {
       display: block;
+      /* background: red; */
     }
   }
 
   @media(min-width: 860px){
     max-width: 1110px;
     display: grid;
+    /* background: blue; */
     grid-template-areas: "profileArea welcomeArea profileRelationsArea";
     grid-template-columns: 160px 1fr 312px;
   }
-`
+`;
 
 export default MainGrid;
