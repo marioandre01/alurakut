@@ -30,3 +30,9 @@ export default async function recebedorDeRequest(request, response) {
     message: 'Ainda não temos nada no GET, mas no POST tem!'
   })
 }
+
+export async function getServerSideProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
